@@ -1,10 +1,12 @@
 # <Project Title>
 
-> One-liner: what this repo demonstrates (e.g., “Azure Sentinel detections + incident write-ups”)
+Automation & Scripting Repo
 
 ## 🎯 Objectives
-- What you set out to learn/build
-- Which security domain(s) this covers (SIEM, IR, GRC, Cloud, etc.)
+- Python tools
+- PowerShell scripts
+- Bash automation
+- Log parsers
 
 ## 🧪 What’s Inside
 - `docs/` – reports, playbooks, baselines, diagrams
