@@ -1,4 +1,4 @@
-# <Project Title>
+## Cybersecurity Automation & Scripting
 
 This project showcases cybersecurity automation across multiple scripting languages.
 It includes tools for log parsing, alert generation, evidence collection, and security task automation used in real SecOps, SOC, and IR workflows.
