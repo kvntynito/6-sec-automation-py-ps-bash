@@ -1,19 +1,21 @@
 ## Cybersecurity Automation & Scripting
 
-This project showcases cybersecurity automation across multiple scripting languages.
-It includes tools for log parsing, alert generation, evidence collection, and security task automation used in real SecOps, SOC, and IR workflows.
+This project showcases practical cybersecurity automation across Python, PowerShell, and Bash.
+It includes tools for log parsing, alert generation, evidence collection, and security task automation used in real SecOps, SOC, and Incident Response environments.
 
 ## 🎯 Objectives
-- Python tools
-- PowerShell scripts
-- Bash automation
-- Log parsers
+
+- Build cross-platform automation tools
+- Parse and normalize logs (Windows, Linux, Sysmon)
+- Automate alerting and enrichment
+- Detect suspicious patterns with scripting
+- Create reusable SOC/IR utilities
 
 ## 📁 What’s Inside
-- `docs/` – reports, playbooks, baselines, diagrams
-- `scripts/` – Python/PowerShell/Bash utilities
-- `lab/` – sample logs, datasets, IaC
-- `.github/` – issue/PR templates
+- docs/       - Script explanations, usage, templates
+- scripts/    - Python, PowerShell, Bash automation tools
+- lab/        - Sample logs, test datasets, script outputs
+- .github/    - Issue/PR templates
 
 ## 🧪 Lab Setup (Quick Start)
 You can run everything on:
@@ -25,14 +27,14 @@ You can run everything on:
 
 **Required tools**
 
-✅ Python 3.10+
+- Python 3.10+
+- PowerShell 7+ or Windows PowerShell
+- Bash (Linux or WSL)
 
-✅ PowerShell 7+ or Windows PowerShell
-
-✅ Bash (Linux or WSL)
+Scripts are designed to run locally, so no special infrastructure is needed.
 
 ## ⚙️ Automation Focus Areas
-✅ **Python Automation**
+🐍 **Python Automation**
 - Log parsing & normalization
 - Detect suspicious patterns
 - IP enrichment (GeoIP, AbuseIPDB, VirusTotal)
@@ -41,7 +43,7 @@ You can run everything on:
 - Regex pattern matching
 - Simple threat detection scripts
 
-✅ **PowerShell Automation (Windows)**
+🪟 **PowerShell Automation (Windows)**
 - Check for failed logins
 - Parse Windows Event Logs
 - Export security logs
@@ -49,7 +51,7 @@ You can run everything on:
 - Sysmon evidence collection
 - RDP brute-force detection
 
-✅ **Bash Automation (Linux)**
+🐧 **Bash Automation (Linux)**
 - Review SSH logs
 - File integrity checks
 - UFW/iptables verifications
@@ -59,15 +61,15 @@ You can run everything on:
 - User/permission auditing
 
 ## ▶️ How to Run Scripts (Examples)
-✅ **Python**
+**Python**
 
 python3 scripts/python/TEMPLATE_log_parser.py sample.log
 
-✅ **PowerShell**
+**PowerShell**
 
 pwsh scripts/powershell/TEMPLATE_failed_login_detector.ps1
 
-✅ **Bash**
+**Bash**
 
 bash scripts/bash/TEMPLATE_update_audit.sh
 
@@ -104,6 +106,16 @@ Replace target filenames as needed.
 - Add a simple REST API script to query VirusTotal
 - Build a CLI menu-based Python security toolkit
 - Combine scripts into a small “automation suite”
+
+## Related Projects
+
+🛡️ Repo 1 – Sentinel Detection Engineering
+Use automation to generate or enrich detection datasets.
+https://github.com/kvntynito/1-secops-detentions-sentinel
+
+🔎 Repo 2 – Vulnerability Management
+Automate scan data parsing and risk classification.
+https://github.com/kvntynito/2-vuln-mgmt-openvas-lab
 
 ## ⚖️ License
 MIT – see `LICENSE`.
